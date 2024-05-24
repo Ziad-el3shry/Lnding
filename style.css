@@ -1,0 +1,143 @@
+* {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+body {
+    padding: 0px;
+    margin : 0px;
+}
+
+.arrow {
+    width   : 50px;
+    border  : 0px;
+    position: fixed;
+    bottom  : 30px;
+    right   : 30px;
+    /* display: none; */
+}
+
+.container {
+    margin           : 0px;
+    padding          : 0px;
+    background-image : url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size  : cover;
+}
+
+h1 {
+    padding-top: 30px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+p {
+    width      : 700px;
+    margin-left: 410px;
+    color      : rgb(80, 80, 80);
+}
+
+button {
+    border       : 0px;
+    border-radius: 20px;
+    height       : 40px;
+    width        : 150px;
+    color        : white;
+    cursor       : pointer;
+}
+
+.btt1 {
+    background-color: hsl(171, 66%, 44%);
+    margin-left     : 490px;
+    margin-right    : 20px;
+}
+
+.btt2 {
+    background-color: hsl(233, 100%, 69%);
+}
+
+button:hover {
+    box-shadow: 5px 2px 18px #888888;
+}
+
+ul {
+    list-style-type: none;
+    display        : inline-block;
+    width          : 150px;
+    position       : absolute;
+}
+
+li {
+    display: inline-block;
+}
+
+li p {
+    width: 342px;
+}
+
+.icons {
+    display        : flex;
+    justify-content: space-around;
+}
+
+.icon {
+    margin-top : 0px;
+    margin-left: 5px;
+    display    : inline-block;
+    width      : 355px;
+}
+
+.image {
+    margin-left: 150px;
+}
+
+.media {
+    display        : flex;
+    justify-content: space-around;
+}
+
+.bott {
+    list-style-type: none;
+    display        : inline-block;
+    width          : 620px;
+}
+
+.bott li {
+    display: inline-block;
+    width  : 200px;
+}
+
+.bott2 {
+    display: block;
+    width  : 620px;
+}
+
+.bott2 li {
+    display: inline-block;
+    width  : 200px;
+}
+
+a {
+    text-decoration: none;
+    cursor         : pointer;
+    color          : gray;
+}
+
+a:hover {
+    color: hsl(171, 66%, 46%);
+}
+
+table {
+    display: inline-block;
+}
+
+td {
+    padding-left: 100px;
+    padding-top : 20px;
+}
+
+i:hover {
+    background-color: hsl(171, 66%, 46%);
+    ;
+}
